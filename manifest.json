@@ -1,0 +1,31 @@
+{
+  "short_name": "Star FM Romania",
+  "name": "Radio Star FM Romania 2022",
+  "theme_color": "#337ab7",
+  "background_color": "#337ab7",
+  "display": "standalone",
+  "description": "Asculta cel mai bun post de radio doar cu noi",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/"
+}
