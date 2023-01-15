@@ -16,7 +16,7 @@ let modelos = [
             type: 'dedicatii'
       },
       {
-            img: 'https://manutv.net/',
+            img: 'https://www.tv-online.me/',
             type: 'programetv'
       },
       {
