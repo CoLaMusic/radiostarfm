@@ -25,7 +25,7 @@
 
         $(".jd-title").html("CHAT");
 
-        content.innerHTML = '<div class="box-home" style="background-image:url('+bg+')"><iframe src="https://xat.com/embed/chat.php#id=220513358&amp;gn=StarFmRomania2022" width="840" height="505" frameborder="0" scrolling="no"></iframe><br/><iframe loading="lazy" src="https://program.radiostarfmromania.com/dedicatii" width="840" height="505" frameborder="0" scrolling="no"></iframe></div>';
+        content.innerHTML = '<div class="box-home" style="background-image:url('+bg+')"><iframe src="https://xat.com/embed/chat.php#id=220513358&amp;gn=StarFmRomania2022" width="840" height="505" frameborder="0" scrolling="no"></iframe></div>';
 
         $(".jd-container").html(content);
 
