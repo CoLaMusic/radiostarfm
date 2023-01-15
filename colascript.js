@@ -92,7 +92,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<div class="jd-box-cola">\
+            box = `<div class="jd-box-cola-dedicatii">\
                         <iframe src="${pcb_img}" width="100%" height="1050">\
                     </div>`;
                   
