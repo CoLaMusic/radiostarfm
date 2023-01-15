@@ -6,7 +6,7 @@
     var box = '';
     var bg = $(".jd-gallery").attr("data-screen");
     console.log(bg)
-
+ 
     function initBgs(){
 
         $(".jd-title").html('CHAT')
