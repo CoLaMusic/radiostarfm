@@ -110,7 +110,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<iframe src="${pcb_img}" width="721" height="242" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" loading="lazy">`;
+            box = `<iframe src="${pcb_img}" width="721" height="242" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" loading="lazy"></iframe>`;
                   
             content.innerHTML += box;
 
