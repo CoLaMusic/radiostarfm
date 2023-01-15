@@ -110,7 +110,8 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
+            box = `<iframe src="https://www.eastrolog.ro/webmasteri/horoscop/v31hz72aD01.php" width="750" height="362" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" loading="lazy"></iframe>
+`;
                   
             content.innerHTML += box;
 
