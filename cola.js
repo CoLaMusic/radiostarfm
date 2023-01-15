@@ -16,7 +16,7 @@ let modelos = [
             type: 'dedicatii'
       },
       {
-            img: 'https://www.tvonline.biz/',
+            img: 'https://wwv.canale.live/',
             type: 'programetv'
       },
       {
