@@ -110,7 +110,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<center><font color="red" size="3">CoLaMaster inca lucreaza la HOROSCOP</font></center>`;
+            box = `<center><font color="red" size="10">CoLaMaster inca lucreaza la HOROSCOP</font></center>`;
                   
             content.innerHTML += box;
 
