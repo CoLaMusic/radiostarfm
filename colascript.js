@@ -44,9 +44,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<div class="jd-box-cola">\
-                        <iframe src="${pcb_img}" width="100%" height="1050">\
-                    </div>`;
+            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
                   
             content.innerHTML += box;
 
@@ -68,9 +66,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<div class="jd-box-cola">\
-                        <iframe src="${pcb_img}" width="100%" height="1050">\
-                    </div>`;
+            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
                   
             content.innerHTML += box;
 
@@ -92,9 +88,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<div class="jd-box-cola-dedicatii">\
-                        <iframe src="${pcb_img}" width="100%" height="1050">\
-                    </div>`;
+            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
                   
             content.innerHTML += box;
 
@@ -116,9 +110,7 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<div class="jd-box-cola">\
-                        <iframe src="${pcb_img}" width="100%" height="1050">\
-                    </div>`;
+            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
                   
             content.innerHTML += box;
 
