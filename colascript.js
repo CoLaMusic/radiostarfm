@@ -55,7 +55,7 @@
             y++;
         }
     })
-     $("#programetv").on('click', function(){
+     $("#tv").on('click', function(){
 
         $(".jd-container").html("");
         content.innerHTML = "";
