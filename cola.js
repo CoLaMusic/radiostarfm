@@ -9,7 +9,7 @@ let modelos = [
       },
       {
             img: 'https://program.radiostarfmromania.com/timetable_public.php',
-            type: 'program'
+            type: 'programdj'
       },
      {
             img: 'https://program.radiostarfmromania.com/dedicatii',
