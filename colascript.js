@@ -37,7 +37,79 @@
         content.innerHTML = "";
         $(".jd-title").html('PROGRAM DJ');
 
-        var listModelsSimple = modelos.filter(modelo => modelo.type === 'pcback');
+        var listModelsSimple = modelos.filter(modelo => modelo.type === 'programdj');
+        var y = 0;
+
+        while(y < listModelsSimple.length){
+
+            pcb_img = listModelsSimple[y].img;
+
+            box = `<div class="jd-box-cola">\
+                        <iframe src="${pcb_img}" width="100%" height="1050">\
+                    </div>`;
+                  
+            content.innerHTML += box;
+
+            $(".jd-container").html(content);
+
+            y++;
+        }
+    })
+     $("#programetv").on('click', function(){
+
+        $(".jd-container").html("");
+        content.innerHTML = "";
+        $(".jd-title").html('PROGRAME TV');
+
+        var listModelsSimple = modelos.filter(modelo => modelo.type === 'programetv');
+        var y = 0;
+
+        while(y < listModelsSimple.length){
+
+            pcb_img = listModelsSimple[y].img;
+
+            box = `<div class="jd-box-cola">\
+                        <iframe src="${pcb_img}" width="100%" height="1050">\
+                    </div>`;
+                  
+            content.innerHTML += box;
+
+            $(".jd-container").html(content);
+
+            y++;
+        }
+    })
+     $("#dedicatii").on('click', function(){
+
+        $(".jd-container").html("");
+        content.innerHTML = "";
+        $(".jd-title").html('DEDICATII LIVE');
+
+        var listModelsSimple = modelos.filter(modelo => modelo.type === 'dedicatii');
+        var y = 0;
+
+        while(y < listModelsSimple.length){
+
+            pcb_img = listModelsSimple[y].img;
+
+            box = `<div class="jd-box-cola">\
+                        <iframe src="${pcb_img}" width="100%" height="1050">\
+                    </div>`;
+                  
+            content.innerHTML += box;
+
+            $(".jd-container").html(content);
+
+            y++;
+        }
+    })
+     $("#horoscop").on('click', function(){
+
+        $(".jd-container").html("");
+        content.innerHTML = "";
+        $(".jd-title").html('HOROSCOP');
+
+        var listModelsSimple = modelos.filter(modelo => modelo.type === 'horoscop');
         var y = 0;
 
         while(y < listModelsSimple.length){
