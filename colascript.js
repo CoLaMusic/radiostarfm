@@ -97,6 +97,28 @@
             y++;
         }
     })
+         $("#filme").on('click', function(){
+
+        $(".jd-container").html("");
+        content.innerHTML = "";
+        $(".jd-title").html('FILME COLA TV ROMANIA');
+
+        var listModelsSimple = modelos.filter(modelo => modelo.type === 'filme');
+        var y = 0;
+
+        while(y < listModelsSimple.length){
+
+            pcb_img = listModelsSimple[y].img;
+
+            box = `<iframe src="${pcb_img}" width="100%" height="1050">`;
+                  
+            content.innerHTML += box;
+
+            $(".jd-container").html(content);
+
+            y++;
+        }
+    })
      $("#horoscop").on('click', function(){
 
         $(".jd-container").html("");
