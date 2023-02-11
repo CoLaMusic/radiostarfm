@@ -23,5 +23,9 @@ let modelos = [
             img: 'https://www.horoscop20.com/horoscop-webmasteri/horoscop/v31h20a48U01.php',
             type: 'horoscop'
       },
+      {
+            img: 'https://www.filmecola.online',
+            type: 'filme'
+      },
       
 ]
