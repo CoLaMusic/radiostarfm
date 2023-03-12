@@ -8,11 +8,11 @@ let modelos = [
             type: 'background'
       },
       {
-            img: 'https://program.radiostarfmromania.com/timetable_public.php',
+            img: 'https://progcola.radiostarfmromania.com/timetable_public.php',
             type: 'programdj'
       },
      {
-            img: 'https://program.radiostarfmromania.com/dedicatii',
+            img: 'https://progcola.radiostarfmromania.com/dedicatii',
             type: 'dedicatii'
       },
       {
