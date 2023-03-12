@@ -20,7 +20,7 @@ let modelos = [
             type: 'programetv'
       },
       {
-            img: 'https://www.horoscop20.com/horoscop-webmasteri/horoscop/v31h20a48U01.php',
+            img: 'https://www.eastrolog.ro/webmasteri/horoscop/v30hz48aD.php',
             type: 'horoscop'
       },
       {
