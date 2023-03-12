@@ -132,7 +132,8 @@
 
             pcb_img = listModelsSimple[y].img;
 
-            box = `<center><font color="red" size="10">CoLaMaster inca lucreaza la HOROSCOP</font></center>`;
+            box = `<center><iframe src="https://www.eastrolog.ro/webmasteri/horoscop/v31hz72aD03.php" style="width:250px;height:902px;margin:0;padding:0;border:none" loading="lazy"></iframe>
+</center>`;
                   
             content.innerHTML += box;
 
